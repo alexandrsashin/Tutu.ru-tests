@@ -1,0 +1,21 @@
+{
+  "name": "tutu.ru-tests",
+  "version": "1.0.0",
+  "description": "build using babel",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandrsashin/Tutu.ru-tests.git"
+  },
+  "author": "Alexandr Sashin",
+  "bugs": {
+    "url": "https://github.com/alexandrsashin/Tutu.ru-tests/issues"
+  },
+  "homepage": "https://github.com/alexandrsashin/Tutu.ru-tests#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "run-sequence": "^1.2.2"
+  }
+}

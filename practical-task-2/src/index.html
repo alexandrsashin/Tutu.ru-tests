@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="person-data">
+      <h1 class="person-data__title">Sortable data table</h1>
+      <div class="person-data__start">
+        <button class="btn btn_start">Загрузить JSON</button>
+      </div>
+      <div class="person-data__search search stashed">
+        <label for="search" class="search__label">Поиск: </label>
+        <input type="text" class="search__input" id="search">
+        <button class="btn search__btn">Найти</button>
+      </div>
+      <table class="person-data__table"></table>
+      <div class="person-data__nav stashed">
+        <button class="btn btn_prev">Назад</button>
+        <span class="person-data__page-number"></span>
+        <button class="btn btn_next">Вперед</button>
+      </div>
+      <div class="person-data__view contacts stashed">
+        <p>Выбран пользователь <span class="contacts__text contacts__name"></span></p>
+        <div>Описание:<br>
+          <textarea class="contacts__descr" rows="3"></textarea>
+        </div>
+        <p>Адрес проживания: <span class="contacts__text contacts__streetAddress"></span></p>
+        <p>Город: <span class="contacts__text contacts__city"></span></p>
+        <p>Провинция/штат: <span class="contacts__text contacts__state"></span></p>
+        <p>Индекс: <span class="contacts__text contacts__zip"></span></p>
+      </div>
+      <div class="person-data__loading">
+      </div>
+    </div>
+    <script data-require="jquery@3.0.0" data-semver="3.0.0" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
